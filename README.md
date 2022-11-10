@@ -1,43 +1,27 @@
 # Named Entiry Recognition
-
 ## AIM:
-
 To develop an LSTM-based model for recognizing the named entities in the text.
-
 ## Problem Statement and Dataset:
-
 we aim to develop an LSTM-based neural network model using Bidirectional Recurrent Neural Networks for recognizing the named entities in the text. The dataset used has a number of sentences, and each words have their tags. We have to vectorize these words using Embedding techniques to train our model.Bidirectional Recurrent Neural Networks connect two hidden layers of opposite directions to the same output.
 
 ![image](https://user-images.githubusercontent.com/75413726/198337855-18bcee11-641e-40f8-9487-7b0d1d1ebefd.png)
 
-
-
-
 ## DESIGN STEPS:
-
 ### STEP 1:
 Import the necessary packages.
-
 ### STEP 2:
 Read the dataset and fill the null values using forward fill.
-
 ### STEP 3:
 Create a list of words and tags. Also find the number of unique words and tags in the dataset.
-
 ### STEP 4:
 Create a dictionary for the words and their Index values. Repeat the same for the tags as well.
-
 ### STEP 5:
 We done this by padding the sequences and also to acheive the same length of input data.
-
 ### STEP 6:
 We build the model using Input, Embedding, Bidirectional LSTM, Spatial Dropout, Time Distributed Dense Layers.
-
 ### STEP 7:
 We compile the model to fit the train sets and validation sets.
-
 ## PROGRAM:
-
 ```python
 import matplotlib.pyplot as plt
 import pandas as pd

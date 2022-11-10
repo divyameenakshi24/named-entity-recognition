@@ -1,4 +1,4 @@
-# Named Entiry Recognition
+# Named Entity Recognition
 ## AIM:
 To develop an LSTM-based model for recognizing the named entities in the text.
 ## Problem Statement and Dataset:
